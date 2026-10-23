@@ -16,7 +16,7 @@ The objective of this project is to develop regression models that predict the s
 #### **Code Design:**
 
 ##### Data loading and preparation
-Relevant code: CellGrowthModel.__init__() and prepare_data().
+Relevant code: CellGrowthModel._init_() and prepare_data().
 This section of the code loads the dataset_cell_growth_4factor.csv file into pandas. From there, the prepare_data() section separates the four feature categories of temperature, pH, glucose and lactate concentration with the target variable set as the specific growth rate. The features are stored in x while the target is stored in y NumPy arrays. This stage is necessary as it organizes the input target and clearly defines the feature parameters. This stage provides the prepared data that will later be used for all four regression approaches implemented later on in the program.
 
 ##### Model Training
